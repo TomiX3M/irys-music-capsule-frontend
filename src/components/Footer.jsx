@@ -33,7 +33,7 @@ function Footer({ }) {
             Cryptee⚡
           </a>{' '}
           Built with<img
-           src="/assets/irys_gif_logo.gif"
+           src="./assets/irys_gif_logo.gif"
             alt="Irysify"
             style={{
               height: '2.50em',

@@ -113,8 +113,8 @@ function CapsuleForm() {
         onSubmit={handleSubmit}
         style={{ maxWidth: "400px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem" }}
       >
-        <IrysSprite src="/assets/sprite_1.png" width={85} top={12} right={12} opacity={0.9} /> 
-               <IrysSprite src="/assets/sprite_2.png" width={70} top={2} left={12} /> 
+        <IrysSprite src="./assets/sprite_1.png" width={85} top={12} right={12} opacity={0.9} /> 
+               <IrysSprite src="./assets/sprite_2.png" width={70} top={2} left={12} /> 
         
         <div style={{ display: "flex", alignItems: "center", gap: 12, justifyContent: "space-between" }}>
           <button
