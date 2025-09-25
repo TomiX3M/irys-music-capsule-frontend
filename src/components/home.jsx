@@ -122,7 +122,7 @@ function Home() {
   async function fetchData(token, type) {
     setLoading(true);
     try {
-      const res = await fetch(`https://irys-music-capsule-backend.onrender.com//top-${type}?token=${token}`);
+      const res = await fetch(`https://irys-music-capsule-backend.onrender.com/top-${type}?token=${token}`);
       const json = await res.json();
       setData(json.items || []);
     } catch (error) {
@@ -151,7 +151,7 @@ function Home() {
       
      
      
-      <IrysSprite src="/sprite_2.png" width={85} top={12} right={12} opacity={0.9} />
+      <IrysSprite src="/sprite_2.png" width={85} top={2} right={12} opacity={0.9} />
       <IrysSprite src="/sprite_2.png" width={70} top={2} left={12} />
 
 
