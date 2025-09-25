@@ -151,8 +151,8 @@ function Home() {
       
      
      
-      <IrysSprite src="../assets/sprite_2.png" width={85} top={12} right={12} opacity={0.9} />
-      <IrysSprite src="../assets/sprite_2.png" width={70} top={2} left={12} />
+      <IrysSprite src="/sprite_2.png" width={85} top={12} right={12} opacity={0.9} />
+      <IrysSprite src="/sprite_2.png" width={70} top={2} left={12} />
 
 
       <h1 style={{
